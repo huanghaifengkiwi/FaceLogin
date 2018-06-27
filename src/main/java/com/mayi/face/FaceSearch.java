@@ -1,4 +1,4 @@
-package com.offcn.face;
+package com.mayi.face;
 
 import java.io.File;
 import java.io.IOException;

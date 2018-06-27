@@ -1,4 +1,4 @@
-package com.offcn.face;
+package com.mayi.face;
 
 import java.io.File;
 import java.io.IOException;
@@ -26,7 +26,7 @@ public static void main(String[] args) throws IOException {
 	String image="";
 	
 	//把图片文件读取
-	byte[] bytes = FileUtils.readFileToByteArray(new File("d:\\_第五阶段课件\\Day03-HttpClient、Jsoup\\0115照片\\zhangwentao.jpg"));
+	byte[] bytes = FileUtils.readFileToByteArray(new File("d:\\1.jpg"));
 	image=Base64.encodeBase64String(bytes);
 	CloseableHttpClient client = HttpClients.createDefault();
 	
